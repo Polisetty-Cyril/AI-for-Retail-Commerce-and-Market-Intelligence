@@ -72,24 +72,22 @@ Organizations face critical challenges in competitive intelligence:
 
 ## 💡 Our Solution
 
-ACIA bridges the gap between data and strategic action through:
+ACIA bridges the gap between data and strategic action through a **4-stage dynamic architecture**:
 
 ### Core Capabilities
 
-```
-┌─────────────────┐      ┌──────────────────┐      ┌─────────────────┐
-│  Continuous     │──────▶│  AI Strategic    │──────▶│  Predictive     │
-│  Multi-Source   │      │  Reasoning       │      │  Intelligence   │
-│  Monitoring     │      │  & Hypothesis    │      │  & Action       │
-└─────────────────┘      └──────────────────┘      └─────────────────┘
-        │                         │                          │
-        ▼                         ▼                          ▼
-   Data Streams           Weak Signals              Strategic Insights
-   • News APIs           • Pattern Analysis          • Predictions
-   • Job Portals         • Hypothesis Gen           • Recommendations
-   • GitHub              • Context Building         • Confidence Scores
-   • Pricing Pages       • Strategic Linking        • Supporting Evidence
-```
+<div align="center">
+
+**Modular Data Perception** → **Smart Normalization** → **Reasoning Core** → **Memory & Learning**
+
+</div>
+
+| Stage | Key Components | Strategic Value |
+|-------|----------------|-----------------|
+| **🔍 Data Perception** | 5 specialized agents (GitHub, Hiring, Website, News, Sentiment) | Comprehensive competitive coverage |
+| **⚙️ Normalization** | Signal scoring, enrichment, unified JSON format | Consistent, actionable data |
+| **🧠 Reasoning Core** | Hypothesis generation, adversarial critique, evidence validation | Strategic narratives with high confidence |
+| **💾 Memory & Learning** | Long-term storage, semantic knowledge, feedback loops | Continuously improving accuracy |
 
 ### What Makes ACIA Different
 
@@ -98,35 +96,44 @@ ACIA bridges the gap between data and strategic action through:
 ✅ **Predictive First** – Anticipates future actions, not just summarizes past changes  
 ✅ **Self-Learning** – Improves accuracy through continuous outcome-based feedback  
 ✅ **Explainable AI** – Provides clear reasoning for why and what's coming next  
+✅ **Adversarial Validation** – Multi-agent critique ensures robust predictions  
 
 ---
 
 ## 🚀 Key Features
 
-### 1. **Intelligent Signal Detection**
-- Multi-source data aggregation and normalization
-- Pattern recognition across hiring, development activity, and market positioning
-- Anomaly detection with contextual awareness
+### 1. **Modular Data Perception Layer**
+- **5 Specialized Monitoring Agents**: GitHub, Hiring, Website, News/Social, Sentiment tracking
+- **Extensible Architecture**: Easy addition of new data sources and monitoring agents
+- **Real-time Signal Collection**: Continuous monitoring with automated anomaly detection
+- **Multi-dimensional Coverage**: Technical, organizational, market, and sentiment signals
 
-### 2. **Strategic Hypothesis Engine**
-- Connects disparate signals into coherent strategic narratives
-- Evaluates multiple competing hypotheses simultaneously
-- Assigns confidence scores based on signal strength and historical patterns
+### 2. **Smart Normalization & Structuring**
+- **Unified Data Model**: Standardized JSON-based signal representation
+- **Signal Scoring System**: 0.0-1.0 strength metrics for prioritization
+- **Context Enrichment**: Automatic addition of historical and relational context
+- **Quality Filtering**: Noise reduction and relevance optimization
 
-### 3. **Predictive Analytics**
-- Forecasts competitor actions with timing estimates
-- Assesses potential market impact of predicted moves
-- Provides probabilistic scenarios with uncertainty quantification
+### 3. **Reasoning Core with Adversarial Validation**
+- **Multi-Hypothesis Generation**: Creates competing strategic interpretations
+- **Critique Agent System**: Adversarial evaluation for robustness
+- **Confidence Calibration**: Evidence-based confidence scoring
+- **Strategic Narrative Building**: Connects signals into coherent stories
+- **Contradiction Resolution**: Identifies and resolves conflicting signals
 
-### 4. **Adaptive Learning System**
-- Continuously validates predictions against real outcomes
-- Adjusts signal weighting and pattern recognition dynamically
-- Builds organizational knowledge base over time
+### 4. **Memory & Continuous Learning System**
+- **Long-Term Memory Storage**: Signals, outcomes, and real-world validation results
+- **Semantic Knowledge Graph**: Dynamic competitor behavior modeling
+- **Outcome-Based Learning**: Automatic weight adjustment from prediction accuracy
+- **Pattern Recognition**: Historical similarity matching and trend analysis
+- **Predictive Accuracy Tracking**: Self-monitoring and improvement metrics
 
-### 5. **Decision Support**
-- Generates actionable recommendations with supporting evidence
-- Prioritizes insights by relevance and urgency
-- Provides strategic context for business leaders
+### 5. **Proactive Intelligence Delivery**
+- **Actionable Recommendations**: Decision-ready insights with supporting evidence
+- **Timing Predictions**: When competitor moves are likely to materialize
+- **Impact Assessment**: Quantified business impact scenarios
+- **Early Warning System**: 3-6 month advance strategic alerts
+- **Explainable Outputs**: Full reasoning chain and evidence trail
 
 ---
 
@@ -134,34 +141,97 @@ ACIA bridges the gap between data and strategic action through:
 
 ### System Architecture
 
+ACIA operates through a **4-stage dynamic pipeline** that transforms raw competitive data into strategic intelligence:
+
 ```mermaid
-graph TB
-    A[Data Sources] -->|Continuous Ingestion| B[Monitoring Agents]
-    B -->|Raw Signals| C[Signal Detection Engine]
-    C -->|Patterns| D[Hypothesis Generator]
-    D -->|Strategic Scenarios| E[Prediction Engine]
-    E -->|Forecasts| F[Decision Intelligence]
-    F -->|Actions| G[Business Users]
-    G -->|Outcomes| H[Feedback Loop]
-    H -->|Learning| C
-    H -->|Learning| D
-    H -->|Learning| E
+graph LR
+    subgraph Stage1["🔍 Stage 1: Modular Data Perception"]
+        A1[GitHub Agent<br/>Commit Velocity<br/>Library Shifts]
+        A2[Hiring Agent<br/>Job Role Changes<br/>Hiring Patterns]
+        A3[Website Agent<br/>DOM/Algorithms<br/>Pricing Changes]
+        A4[News/Social Agent<br/>PR Mentions<br/>Competitive Signals]
+        A5[Sentiment Spike<br/>Public Comment<br/>PR Volume]
+    end
     
-    I[Vector DB] -.->|Historical Context| C
-    I -.->|Past Hypotheses| D
-    I -.->|Outcome Data| E
+    subgraph Stage2["⚙️ Stage 2: Smart Normalization"]
+        B1[Signal Normalization<br/>& Enrichment Engine]
+        B2[Unified Data<br/>JSON Scoring]
+        B3[Signal Scoring Output<br/>type, company, strength]
+    end
+    
+    subgraph Stage3["🧠 Stage 3: Reasoning Core"]
+        C1[Hypothesis Generator<br/>Multiple Hypotheses<br/>+ Confidence Scores]
+        C2[Hypothesis & Critique Agent<br/>Evaluates Contradictions<br/>Assigns Critique Scores]
+        C3[Adversarial Dialogue Loop]
+        C4[Evidence Validator<br/>Prediction vs Reality]
+    end
+    
+    subgraph Stage4["💾 Stage 4: Memory & Learning"]
+        D1[Long-Term Memory<br/>Signals, Outcomes, Reality]
+        D2[Semantic Knowledge<br/>Competitor Insights]
+        D3[Feedback & Learning<br/>Over Time]
+        D4[Proactive Insights<br/>Strategic Output]
+    end
+    
+    Stage1 -->|Raw Signals| Stage2
+    Stage2 -->|Normalized Data| Stage3
+    Stage3 -->|Validated Hypotheses| Stage4
+    Stage4 -->|Insights| E[Business Users]
+    E -->|Outcomes| Stage4
+    Stage4 -.->|Continuous Learning| Stage2
+    Stage4 -.->|Continuous Learning| Stage3
 ```
 
-### Process Flow
+### Detailed Process Flow
 
-| Stage | Description | Output |
-|-------|-------------|--------|
-| **1. Monitoring** | Continuous data collection from news, jobs, GitHub, pricing | Structured data streams |
-| **2. Signal Detection** | Identify anomalies and patterns (hiring spikes, code activity, price changes) | Weak signals with metadata |
-| **3. Hypothesis Formation** | Connect signals to generate strategic scenarios | Ranked hypotheses with confidence |
-| **4. Prediction** | Forecast competitor actions, timing, and impact | Predictive intelligence reports |
-| **5. Learning** | Validate predictions against outcomes and refine models | Improved accuracy over time |
-| **6. Action** | Deliver decision-ready insights to stakeholders | Strategic recommendations |
+#### **Stage 1: Modular Data Perception** 🔍
+Extensible multi-agent system for continuous competitive monitoring:
+
+| Agent | Monitors | Key Signals |
+|-------|----------|-------------|
+| **GitHub Agent** | Repository activity | Commit velocity, library shifts, new features |
+| **Hiring Agent** | Job postings | Role changes, hiring patterns, team expansion |
+| **Website Agent** | Competitor sites | DOM changes, algorithm updates, pricing shifts |
+| **News/Social Agent** | Media & social | PR mentions, announcements, competitive signals |
+| **Sentiment Spike** | Public sentiment | Comment volume, sentiment shifts, PR events |
+
+#### **Stage 2: Smart Normalization & Structuring** ⚙️
+Transforms disparate signals into unified, scored intelligence:
+
+- **Signal Normalization Engine**: Standardizes data formats and enriches context
+- **Unified Data Model**: JSON-based scoring system for consistent signal representation
+- **Signal Scoring**: Each signal gets `type`, `company`, and `strength` (0.0-1.0) attributes
+
+**Example Output:**
+```json
+{
+  "type": "price_change",
+  "company": "Competitor X",
+  "strength": 0.7,
+  "timestamp": "2026-02-15T10:30:00Z",
+  "context": "15% reduction in premium tier pricing"
+}
+```
+
+#### **Stage 3: Reasoning Core Analysis & Validation** 🧠
+Multi-agent strategic reasoning with adversarial critique:
+
+| Component | Function | Output |
+|-----------|----------|--------|
+| **Hypothesis Generator** | Creates multiple strategic hypotheses from signals | Ranked hypotheses with confidence scores |
+| **Hypothesis & Critique Agent** | Evaluates contradictions and challenges assumptions | Critique scores and refined hypotheses |
+| **Adversarial Dialogue Loop** | Debates competing interpretations | Robust strategic narratives |
+| **Evidence Validator** | Compares predictions to reality | Validated insights with proof |
+
+#### **Stage 4: Memory & Continuous Learning** 💾
+Self-improving system with long-term strategic memory:
+
+- **Long-Term Memory**: Stores signals, outcomes, and real-world results
+- **Semantic Knowledge Base**: Maintains competitor profiles and behavioral patterns
+- **Feedback Learning**: Adjusts weights and confidence based on prediction accuracy
+- **Proactive Insights Generation**: Delivers actionable strategic recommendations
+
+**Key Improvement**: System accuracy improves over time through continuous outcome validation
 
 ---
 
