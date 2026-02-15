@@ -1,6 +1,6 @@
 <div align="center">
 
-# ACIA – Adaptive Competitive Intelligence Agent
+# ACIA – Autonomous Competitive Intelligence Agent 
 
 ### Predictive AI for Proactive Market Intelligence
 
