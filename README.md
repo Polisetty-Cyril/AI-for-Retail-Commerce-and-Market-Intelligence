@@ -8,7 +8,13 @@
 
 ---
 
-**Team:** Digital Alchemist | **Lead:** Cyril Polishetty
+**Team:** Digital Alchemist
+
+**Team Members:**
+- **Cyril Polishetty** - Team Lead
+- **Cholleti Sucheer** - AI Engineer & Backend Developer
+- **Jagati Nikhil Ram Kumar** - AI Engineer & Frontend Developer
+- **Tuniki Vivek** - AI Engineer & Backend Developer
 
 <!-- [![AI Powered](https://img.shields.io/badge/AI-Powered-blue.svg)](https://github.com)
 [![Multi-Agent](https://img.shields.io/badge/Architecture-Multi--Agent-green.svg)](https://github.com)
@@ -246,7 +252,8 @@ graph TB
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/acia.git
+git clone https://github.com/Polisetty-Cyril/AI-for-Retail-Commerce-and-Market-Intelligence.git
+cd AI-for-Retail-Commerce-and-Market-Intelligence
 
 # Install dependencies
 pip install -r requirements.txt
@@ -327,8 +334,9 @@ This project is developed for the **AI for Retail, Commerce & Market Intelligenc
 **Team Digital Alchemist**
 
 - **Project Lead:** Cyril Polishetty
-- **Email:** [contact@digitalalchemist.team](mailto:contact@digitalalchemist.team)
-- **GitHub:** [@digital-alchemist](https://github.com/digital-alchemist)
+- **Email:** [cyrilp4107@gmail.com](mailto:cyrilp4107@gmail.com)
+- **GitHub:** [@Polisetty-Cyril](https://github.com/Polisetty-Cyril)
+- **Repository:** [AI-for-Retail-Commerce-and-Market-Intelligence](https://github.com/Polisetty-Cyril/AI-for-Retail-Commerce-and-Market-Intelligence)
 
 ---
 
